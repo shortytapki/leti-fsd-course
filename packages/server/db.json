@@ -1,0 +1,19 @@
+{
+  "posts": [
+    { "id": "1", "title": "a title", "views": 100 },
+    { "id": "2", "title": "another title", "views": 200 }
+  ],
+  "comments": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "tracks": [
+    {
+      "id": "1",
+      "src": "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Rest_You_Sleeping_Giant/Songs_for_a_Sad_Guitar/Rest_You_Sleeping_Giant_-_10_-_Leaving_for_Chicago.mp3"
+    }
+  ]
+}

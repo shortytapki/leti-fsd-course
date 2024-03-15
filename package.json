@@ -1,0 +1,17 @@
+{
+  "name": "fsdcourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev -w packages/server & npm run dev -w packages/client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/server",
+    "packages/client"
+  ]
+}
